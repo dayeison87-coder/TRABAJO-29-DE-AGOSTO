@@ -23,3 +23,8 @@ print(lista)
 lista.insert(1, "maria")
 print(lista)
 
+lista = [1, 2, 3, 4, 5, 7, 9, 8, 10, 12, 15, 20, 30]
+lista.remove(3)
+
+for i in range(len(lista)):
+    print(i ,":",lista[i])
